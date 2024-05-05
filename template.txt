@@ -1,0 +1,62 @@
+///   ***   ---                    الله                     ---   ***    ///
+///   ***   ---                 BISMILLAH                ---   ***   ///
+#include<bits/stdc++.h>
+using namespace std;
+
+#define optimize() ios_base::sync_with_stdio(0);
+#define endl '\n'
+#define mem(a,b) memset(a, b, sizeof(a) )
+template < typename F, typename S > ostream& operator << ( ostream& os, const pair< F, S > & p ) {return os << "(" << p.first << ", " << p.second << ")";}
+template < typename T >ostream &operator << ( ostream & os, const vector< T > &v ) {os << "{"; for(auto it = v.begin(); it != v.end(); ++it) {if( it != v.begin() ) os << ", ";os << *it;}return os << "}";}
+template < typename T >ostream &operator << ( ostream & os, const set< T > &v ) {os << "[";for(auto it = v.begin(); it != v.end(); ++it) {if( it != v.begin() ) os << ", ";os << *it;}return os << "]";}
+template < typename T >ostream &operator << ( ostream & os, const multiset< T > &v ) {os << "[";for(auto it = v.begin(); it != v.end(); ++it) {if( it != v.begin() ) os << ", ";os << *it;}return os << "]";}
+template < typename F, typename S >ostream &operator << ( ostream & os, const map< F, S > &v ) {os << "[";for(auto it = v.begin(); it != v.end(); ++it) {if( it != v.begin() ) os << ", ";os << it -> first << " = " << it -> second ;}return os << "]";}
+#define dbg(args...) do {cerr << #args << " : "; faltu(args); } while(0)
+void faltu () {cerr << endl;}
+template <typename T> void faltu( T a[], int n ) {for(int i = 0; i < n; ++i) cerr << a[i] << ' ';cerr << endl;}
+template <typename T, typename ... hello> void faltu( T arg, const hello &... rest) {cerr << arg << ' ';faltu(rest...);}
+typedef long long int ll;
+const ll mx=1e8+123;
+
+////seieve algorithm
+
+/*
+const int mx = 1e6+123;
+bitset<mx> isPrime;
+vector<int> primes;
+
+void primeGen ( int n )
+{
+    for ( int i = 3; i <= n; i += 2 ) isPrime[i] = 1;
+
+    int sq = sqrt(n);
+    for ( int i = 3; i <= sq; i += 2 ) {
+        if(isPrime[i]) {
+            for ( int j = i+i; j <= n; j += i ) {
+                isPrime[j] = 0;
+            }
+        }
+    }
+
+    for ( int i = 3; i <= n; i += 2 ) {
+        if(isPrime[i] == 1) {
+            primes.push_back(i);
+        }
+    }
+}
+*/
+void alamin()
+{
+}
+int main()
+{
+    optimize();
+    cin.tie(0);
+    cout.tie(0);
+    int t;
+    cin>>t;
+    while(t--)alamin();
+    return 0;
+}
+
+
