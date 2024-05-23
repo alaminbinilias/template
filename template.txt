@@ -2,7 +2,6 @@
 ///   ***   ---                 BISMILLAH                ---   ***   ///
 #include<bits/stdc++.h>
 using namespace std;
-
 #define optimize() ios_base::sync_with_stdio(0);
 #define endl '\n'
 #define mem(a,b) memset(a, b, sizeof(a) )
@@ -17,6 +16,9 @@ template <typename T> void faltu( T a[], int n ) {for(int i = 0; i < n; ++i) cer
 template <typename T, typename ... hello> void faltu( T arg, const hello &... rest) {cerr << arg << ' ';faltu(rest...);}
 typedef long long int ll;
 const ll mx=1e8+123;
+
+//int dx[] = { 0, 0, +1, -1, -1  +1, -1, +1 };
+//int dy[] = { +1, -1, 0, 0, -1, +1, +1, -1 };
 
 ////seieve algorithm
 
@@ -58,5 +60,3 @@ int main()
     while(t--)alamin();
     return 0;
 }
-
-
